@@ -1,0 +1,39 @@
+{
+  "$schema": "https://glama.ai/schemas/glama.json",
+  "maintainers": [
+    "friendlygeorge"
+  ],
+  "title": "Terraform MCP Server",
+  "description": "10 tools for AI agent Terraform infrastructure-as-code operations — plan, apply, destroy, init, validate, state management, formatting, output, and import. Agent-native DevOps toolkit for cloud infrastructure management.",
+  "tags": [
+    "terraform",
+    "infrastructure-as-code",
+    "iac",
+    "mcp",
+    "devops",
+    "cloud",
+    "aws",
+    "gcp",
+    "azure",
+    "hcl",
+    "hashicorp",
+    "kubernetes",
+    "provisioning",
+    "deployment",
+    "gitops",
+    "ai-agents",
+    "typescript"
+  ],
+  "repository": "https://github.com/friendlygeorge/mcp-server-terraform",
+  "license": "MIT",
+  "categories": [
+    "cloud-platforms",
+    "developer-tools"
+  ],
+  "language": "TypeScript",
+  "runtime": "node",
+  "relatedServers": [
+    "https://github.com/friendlygeorge/docker-mcp-server",
+    "https://github.com/friendlygeorge/system-monitoring-mcp-server"
+  ]
+}
