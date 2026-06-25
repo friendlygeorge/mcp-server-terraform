@@ -1,0 +1,67 @@
+{
+  "name": "mcp-server-terraform",
+  "version": "0.1.0",
+  "description": "MCP server for Terraform infrastructure-as-code operations",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-server-terraform": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "terraform",
+    "infrastructure-as-code",
+    "iac",
+    "devops",
+    "cloud",
+    "aws",
+    "gcp",
+    "azure",
+    "hcl",
+    "terraform-plan",
+    "terraform-apply",
+    "terraform-state",
+    "claude-desktop",
+    "cursor",
+    "windsurf",
+    "infrastructure",
+    "provisioning",
+    "deployment",
+    "cloud-management",
+    "terraform-cli",
+    "hashicorp",
+    "kubernetes",
+    "docker",
+    "ci-cd",
+    "gitops",
+    "idempotent",
+    "drift-detection",
+    "remote-state",
+    "workspaces",
+    "modules",
+    "providers",
+    "backends",
+    "lifecycle",
+    "import",
+    "destroy",
+    "output",
+    "variables",
+    "terraform-cloud"
+  ],
+  "author": "Nova",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^4.1.9"
+  }
+}
